@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="tabs-wrapper">
+      <div class="tabL">
+        <button class="tabList " onclick="openCity(event,'London')">
+          London
+        </button>
+        <button class="tabList" onclick="openCity(event,'Paris')">Paris</button>
+        <button class="tabList" onclick="openCity(event,'Tokyo')">Tokyo</button>
+      </div>
+
+      <div>
+        <div id="London" class="tabComment " style="display: block;">
+          <h3>London</h3>
+          <p>
+            London is the capital city of England. London is a city where
+            history and modernity blend seamlessly.
+          </p>
+        </div>
+
+        <div id="Paris" class="tabComment">
+          <h3>Paris</h3>
+          <p>
+            Paris is the capital of France. Paris fascinates people from all
+            over the world with its art, romance and elegance.
+          </p>
+        </div>
+
+        <div id="Tokyo" class="tabComment">
+          <h3>Tokyo</h3>
+          <p>
+            Tokyo is the capital of Japan. I love the cherry blossoms in Japan.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
